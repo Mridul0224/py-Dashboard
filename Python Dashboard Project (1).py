@@ -278,7 +278,7 @@ income_widget.param.watch(calculate_difference, "value")
 recurring_expenses_widget.param.watch(calculate_difference, "value")
 monthly_expenses_widget.param.watch(calculate_difference, "value")
 
-pn.Row(income_widget, recurring_expenses_widget, monthly_expenses_widget, difference_widget).show()
+#pn.Row(income_widget, recurring_expenses_widget, monthly_expenses_widget, difference_widget).show()
 
 
 # # Create last month expenses bar chart 
